@@ -1,5 +1,6 @@
 {
-  "name": "portifolio",
+  "name": "cacio-portifolio",
+  "homepage": "https://caciodev.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
