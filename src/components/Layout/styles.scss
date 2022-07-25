@@ -1,0 +1,57 @@
+.layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 60px calc(100vh - 60px);
+
+  .teste {
+    background-color: aliceblue;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    padding: 10px 0;
+    overflow: auto;
+  }
+
+  &__tags {
+    display: block;
+    color: var(--cyan);
+    margin-left: 20px;
+    font-size: 18px;
+    font-family: "La Belle Aurore";
+    opacity: 0.8;
+  }
+
+  &__top-tags {
+    padding-bottom: 15px;
+  }
+
+  &__bottom-tags {
+    padding-top: 15px;
+  }
+
+  &__tag-html {
+    margin-left: -15px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .layout__tags {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .layout {
+    height: 100vh;
+    grid-template-rows: 1fr;
+    grid-template-columns: 0.5fr 4fr;
+
+    &__tags {
+      font-size: 22px;
+    }
+  }
+}

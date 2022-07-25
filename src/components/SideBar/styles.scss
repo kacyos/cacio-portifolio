@@ -1,0 +1,246 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 60px;
+  background-color: var(--gray-900);
+  z-index: 2;
+
+  &::before {
+    position: absolute;
+    content: "";
+    background: linear-gradient(to right, var(--gray-50), var(--cyan));
+    height: 1px;
+    width: 100%;
+    top: 60px;
+  }
+
+  &__logo {
+    display: none;
+  }
+
+  &__btn-open {
+    background-color: transparent;
+    margin-left: 10px;
+    border: none;
+
+    > svg {
+      color: var(--gray-50);
+      font-size: 35px;
+    }
+  }
+
+  &__btn-close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background-color: transparent;
+    border: none;
+
+    > svg {
+      font-size: 30px;
+      color: var(--cyan);
+    }
+  }
+
+  &__menu-mobile {
+    &.menu--close {
+      display: none;
+    }
+
+    &.menu--open {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 50px;
+      gap: 35px;
+      top: 61px;
+      left: 0px;
+      height: 100vh;
+      width: 60%;
+      background-color: #16161af8;
+      z-index: 3;
+      animation: fadeInLeft 1s;
+
+      a {
+        display: flex;
+        flex-direction: column;
+        color: var(--gray-50);
+        transition: all 0.3s ease-in-out;
+        line-height: 20px;
+        gap: 10px;
+        span,
+        svg {
+          font-size: 20px;
+        }
+      }
+
+      .is-active {
+        span,
+        svg {
+          color: var(--cyan);
+        }
+      }
+    }
+  }
+
+  &__social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    li {
+      .github {
+        color: #6e5494;
+      }
+
+      .linkedin {
+        color: #2665ac;
+      }
+
+      svg {
+        font-size: 30px;
+      }
+    }
+  }
+
+  &__menu-desktop {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar__menu-mobile {
+    &.menu--open {
+      width: 25%;
+      a {
+        line-height: 22px;
+        gap: 12px;
+        span,
+        svg {
+          font-size: 22px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .navbar {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    gap: 40px;
+
+    &::before {
+      content: "";
+      background: linear-gradient(to right, var(--gray-50), var(--cyan));
+      height: 100%;
+      width: 1px;
+      top: 0px;
+      left: 100%;
+    }
+
+    &__logo {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+      padding-top: 10px;
+
+      > img {
+        height: 60px;
+        object-fit: contain;
+      }
+
+      > img + img {
+        height: 22px;
+        object-fit: contain;
+      }
+    }
+
+    .is-active {
+      color: var(--cyan);
+    }
+
+    &__btn-open {
+      display: none;
+    }
+
+    &__menu-desktop {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        font-size: 20px;
+
+        &:hover {
+          transition: all 0.6s;
+          color: var(--cyan);
+        }
+      }
+    }
+
+    .menu-open,
+    .menu-close {
+      display: none;
+    }
+
+    &__social-media {
+      padding-bottom: 25px;
+      li {
+        .github {
+          color: #6e5494;
+        }
+
+        .linkedin {
+          color: #2665ac;
+        }
+
+        svg {
+          font-size: 35px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1768px) {
+  .navbar {
+    &__logo {
+      padding-top: 20px;
+
+      > img + img {
+        height: 30px;
+        object-fit: contain;
+      }
+    }
+
+    &__menu-desktop {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+
+      a {
+        font-size: 25px;
+      }
+    }
+
+    &__social-media {
+      li {
+        svg {
+          font-size: 35px;
+        }
+      }
+    }
+  }
+}

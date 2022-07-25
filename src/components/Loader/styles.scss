@@ -1,0 +1,48 @@
+.loader-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: #16161af0;
+  z-index: 1;
+  margin-left: 1.7px;
+
+  p {
+    display: inline-block;
+    text-align: center;
+    width: 90%;
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--cyan);
+  }
+}
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  color: var(--cyan);
+  font-family: Consolas, Menlo, Monaco, monospace;
+  font-weight: 700;
+  font-size: 78px;
+  opacity: 0.8;
+}
+.loader:before {
+  content: "{";
+  display: inline-block;
+  animation: pulse 0.4s alternate infinite ease-in-out;
+}
+.loader:after {
+  content: "}";
+  display: inline-block;
+  animation: pulse 0.4s 0.3s alternate infinite ease-in-out;
+}
+
+@keyframes pulse {
+  to {
+    transform: scale(0.8);
+    opacity: 0.5;
+  }
+}
