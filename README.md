@@ -3,11 +3,12 @@
 
 &#xa0;
 
-<a href="https://www.caciodev.com/">Visite</a></div>
+<a href="https://www.caciodev.com/"> ✈️ Visite 🚀</a></div>
 
 <h1 align="center">Cacio Portifolio</h1>
 
 <p align="center">
+<img alt="Principal linguagem do projeto" src="https://img.shields.io/github/languages/TypeScript/kacyos/cacio-portifolio?color=56BEB8">
   <img alt="Principal linguagem do projeto" src="https://img.shields.io/github/languages/top/kacyos/cacio-portifolio?color=56BEB8">
 
   <img alt="Quantidade de linguagens utilizadas" src="https://img.shields.io/github/languages/count/kacyos/cacio-portifolio?color=56BEB8">
