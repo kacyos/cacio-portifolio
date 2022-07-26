@@ -153,7 +153,14 @@ const Contact = () => {
           </form>
         </div>
         <figure>
-          <img src="/assets/images/email.png" alt="desenho de um homem" />
+          <img src="/assets/images/email.svg" alt="desenho de um homem" />
+          <a
+            href="https://storyset.com/people"
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            People illustrations by Storyset
+          </a>
         </figure>
       </motion.div>
     </>

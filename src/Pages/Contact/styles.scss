@@ -121,6 +121,7 @@
 
     > figure {
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
       > figcaption {
@@ -130,6 +131,10 @@
         display: block;
         object-fit: contain;
         height: 250px;
+      }
+      > a {
+        font-size: 10px;
+        color: var(--cyan);
       }
     }
   }

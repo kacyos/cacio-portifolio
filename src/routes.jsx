@@ -5,6 +5,7 @@ import About from "./Pages/About/index";
 import Skills from "./Pages/Skills/index";
 import Projects from "./Pages/Projects/index";
 import { AnimatePresence } from "framer-motion";
+import NotFound from "./Pages/NotFound";
 
 function Routes() {
   const location = useLocation();
@@ -17,6 +18,7 @@ function Routes() {
         <Route path="sobre" element={<About />} />
         <Route path="skills" element={<Skills />} />
         <Route path="projetos" element={<Projects />} />
+        <Route path="*" element={<NotFound />} />
       </Router>
     </AnimatePresence>
   );

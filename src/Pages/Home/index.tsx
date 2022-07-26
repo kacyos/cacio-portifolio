@@ -34,7 +34,7 @@ const Home = () => {
         </h1>
 
         <div className="presentation__image-mobile">
-          <img src="/assets/images/cacio.png" alt="Cacio" />
+          <img src="/assets/images/Cacio.png" alt="Cacio" />
         </div>
 
         <h2>Desenvolvedor Web</h2>
