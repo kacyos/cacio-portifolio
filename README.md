@@ -28,24 +28,30 @@
 <hr> -->
 
 <p align="center">
-  <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0; 
-  <a href="#sparkles-funcionalidades">Funcionalidades</a> &#xa0; | &#xa0;
-  <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-pré-requisitos">Pré requisitos</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-começando">Começando</a> &#xa0; | &#xa0;
-  <a href="#memo-licença">Licença</a> &#xa0; | &#xa0;
+  <a href="#sobre">Sobre</a> &#xa0; | &#xa0; 
+  <a href="#funcionalidades">Funcionalidades</a> &#xa0; | &#xa0;
+  <a href="#tecnologias">Tecnologias</a> &#xa0; | &#xa0;
+  <a href="#requisitos">Pré requisitos</a> &#xa0; | &#xa0;
+  <a href="#inicio">Começando</a> &#xa0; | &#xa0;
+  <a href="#licença">Licença</a> &#xa0; | &#xa0;
   <a href="https://github.com/kacyos" target="_blank">Autor</a>
 </p>
 
 <br>
 
+<a id="sobre"></a>
+
 ## 🎯 Sobre
 
 Portifólio pessoal criado utilizando React, utilizando o serviço EmailJs para envio de emails e futuramente terá integração com o serviço de CMS do Prismic para listagem dos projetos.
 
+<a id="funcionalidades"></a>
+
 ## ✨ Funcionalidades
 
 ✔️ Envio de email com EmailJs;
+
+<a id="tecnologias"></a>
 
 ## 🚀 Tecnologias
 
@@ -60,9 +66,13 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [React-toastify](https://fkhadra.github.io/react-toastify/introduction/)
 - [EmailJs](https://www.emailjs.com/)
 
+<a id="requisitos"></a>
+
 ## ✅ Pré requisitos
 
 Antes de começar 🏁, você precisa ter o [Git](https://git-scm.com) e o [Node](https://nodejs.org/en/) instalados em sua maquina.
+
+<a id="inicio"></a>
 
 ## 🏁 Começando
 
@@ -81,6 +91,8 @@ $ yarn start
 
 # O app vai inicializar em <http://localhost:3000>
 ```
+
+<a id="licença"></a>
 
 ## 📝 Licença
 
