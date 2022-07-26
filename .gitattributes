@@ -1,4 +1,5 @@
 $ cat .gitattributes
 dist/* linguist-vendored
 *.SCSS linguist-language=TypeScript
-*.TypeScript linguist-language=SCSS
+./*.tsx linguist-language=TypeScript
+*.ts linguist-language=SCSS
