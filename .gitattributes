@@ -1,4 +1,3 @@
 $ cat .gitattributes
 dist/* linguist-vendored
 *.scss linguist-language=TypeScript
-*.scss linguist-language=Python
