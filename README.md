@@ -8,15 +8,15 @@
 <h1 align="center">Cacio Portifolio</h1>
 
 <p align="center">
-  <img alt="Principal linguagem do projeto" src="https://img.shields.io/github/languages/top/kacyos/cacio-portifolio?color=56BEB8">
+  <img alt="Principal linguagem do projeto" src="https://img.shields.io/github/languages/top/kacyos/cacio-portifolio">
 
-  <img alt="Quantidade de linguagens utilizadas" src="https://img.shields.io/github/languages/count/kacyos/cacio-portifolio?color=56BEB8">
+  <img alt="Quantidade de linguagens utilizadas" src="https://img.shields.io/github/languages/count/kacyos/cacio-portifolio?color=orange">
 
-  <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/kacyos/cacio-portifolio?color=56BEB8">
+  <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/kacyos/cacio-portifolio?color=yellow">
 
-<img alt="Licença" src="https://img.shields.io/github/license/kacyos/cacio-portifolio?color=56BEB8">a
+<img alt="Licença" src="https://img.shields.io/github/license/kacyos/cacio-portifolio" />
 
-   <img alt="Github stars" src="https://img.shields.io/github/stars/kacyos/cacio-portifolio?color=56BEB8" />
+   <img alt="Github stars" src="https://img.shields.io/github/stars/kacyos/cacio-portifolio?color=9cf" />
 </p>
 
 <!-- Status -->
@@ -41,23 +41,24 @@
 
 ## 🎯 Sobre
 
-Sobre o seu projeto
+Portifólio pessoal criado utilizando React, utilizando o serviço EmailJs para envio de emails e futuramente terá integração com o serviço de CMS do Prismic para listagem dos projetos.
 
-## :sparkles: Funcionalidades
+## ✨ Funcionalidades
 
-:heavy_check_mark: Funcionalidade 1;\
-:heavy_check_mark: Funcionalidade 2;\
-:heavy_check_mark: Funcionalidade 3;
+✔️ Envio de email com EmailJs;
 
 ## 🚀 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
 - [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [TypeScript](https://sass-lang.com/)
+- [SCSS]()
+- [Framer Motion](https://www.framer.com/motion/)
+- [React Router DOM](https://v5.reactrouter.com/web/guides/quick-start)
+- [Animate.css](https://animate.style/)
+- [React-toastify](https://fkhadra.github.io/react-toastify/introduction/)
+- [EmailJs](https://www.emailjs.com/)
 
 ## ✅ Pré requisitos
 
@@ -85,7 +86,7 @@ $ yarn start
 
 Este projeto está sob licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
-Feito com :heart: por <a href="https://github.com/kacyos" target="_blank">Cacio de Castro</a>
+Feito com 💖 por <a href="https://github.com/kacyos" target="_blank">Cacio de Castro</a>
 
 &#xa0;
 
