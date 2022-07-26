@@ -1,3 +1,3 @@
 $ cat .gitattributes
 dist/* linguist-vendored
-*.tsx linguist-language=React
+*.tsx linguist-language=JaveScript
