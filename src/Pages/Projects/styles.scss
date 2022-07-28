@@ -9,66 +9,57 @@
 
   &__container {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    > img {
-      height: 140px;
-      object-fit: contain;
-    }
-
-    > p {
-      font-size: 30px;
-    }
-
-    /*flex-wrap: wrap;
     gap: 30px;
-    justify-content: center;*/
+    flex-wrap: wrap;
 
     .container__card {
-      height: 300px;
-      width: 280px;
+      height: auto;
+      width: 300px;
       border-radius: 8px;
       border: 1px solid var(--cyan);
-      padding: 5px;
+      box-shadow: 0 0 5px 0px var(--cyan);
+      padding-bottom: 10px;
 
-      > div {
+      > figure {
         display: flex;
         justify-content: center;
-        padding-bottom: 30px;
+        padding-bottom: 20px;
 
         > img {
-          width: 270px;
+          width: 298px;
           object-fit: contain;
+          border-radius: 8px 8px 0 0;
         }
+      }
+
+      > h3 {
+        color: var(--gray-50);
+        font-size: clamp(1.2em, 1.2em + 1vw, 1.5em);
+        text-align: center;
       }
 
       > p {
-      }
-    }
-  }
-}
+        margin: 15px 10px 0;
+        font-size: clamp(0.7em, 0.7em + 1vw, 1em);
+        letter-spacing: 1px;
+        line-height: 22px;
 
-@media screen and(min-width:1024px) {
-  .projects {
-    > h1 {
-      margin-bottom: 40px;
-    }
-
-    &__container {
-      .container__card {
-        height: 350px;
-        width: 300px;
-
-        > div {
-          > img {
-            width: 295px;
-          }
+        > span {
+          font-size: clamp(0.8em, 0.8em + 1vw, 1em);
+          font-weight: 700;
         }
+      }
 
-        > p {
-          font-size: 19px;
-          letter-spacing: 1px;
+      > span {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        padding-top: 25px;
+
+        svg {
+          height: 30px;
+          color: var(--cyan);
         }
       }
     }

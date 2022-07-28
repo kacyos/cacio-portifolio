@@ -1,0 +1,38 @@
+{
+  "id": "e83f0443-e94c-438b-897a-3552adeba32c",
+  "uid": "eos-pariatur-et",
+  "type": "projects",
+  "data": {
+    "img": {
+      "dimensions": {
+        "width": 900,
+        "height": 500
+      },
+      "alt": "Placeholder image",
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1589321578146-4c1ba445cc88?w=900&h=500&fit=crop"
+    },
+    "title": [
+      {
+        "type": "heading3",
+        "text": "Synthesize global architectures",
+        "spans": []
+      }
+    ],
+    "technologies": [
+      {
+        "type": "paragraph",
+        "text": "Labore pariatur do occaecat et eu magna id mollit fugiat sunt esse commodo proident magna ad. Labore amet pariatur tempor excepteur velit et reprehenderit aute. Mollit sint reprehenderit ullamco proident commodo eu qui deserunt incididunt.",
+        "spans": []
+      }
+    ],
+    "github": {
+      "link_type": "Web",
+      "url": "http://twitter.com"
+    },
+    "site": {
+      "link_type": "Web",
+      "url": "http://google.com"
+    }
+  }
+}

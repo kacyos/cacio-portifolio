@@ -1,0 +1,59 @@
+{
+  "id": "projects",
+  "label": "projects",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "uid",
+          "placeholder": "id"
+        }
+      },
+      "img": {
+        "type": "Image",
+        "config": {
+          "constraint": {},
+          "thumbnails": [],
+          "label": "img"
+        }
+      },
+      "title": {
+        "type": "StructuredText",
+        "config": {
+          "label": "title",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "heading3"
+        }
+      },
+      "technologies": {
+        "type": "StructuredText",
+        "config": {
+          "label": "technologies",
+          "placeholder": "tecnologia utilizadas",
+          "allowTargetBlank": true,
+          "multi": "paragraph"
+        }
+      },
+      "github": {
+        "type": "Link",
+        "config": {
+          "label": "Github",
+          "placeholder": "",
+          "select": null
+        }
+      },
+      "site": {
+        "type": "Link",
+        "config": {
+          "label": "Site",
+          "placeholder": "",
+          "select": null
+        }
+      }
+    }
+  }
+}
