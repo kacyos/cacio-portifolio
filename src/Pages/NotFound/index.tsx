@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
 const styles = {
   container: {
@@ -21,6 +22,15 @@ const styles = {
 const NotFound = () => {
   return (
     <div style={styles.container}>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Cacio | Página não encontrada</title>
+        <meta name="description" content="Page not found" />
+        <meta
+          name="keywords"
+          content="not found, page not found, erro, página não encontrada"
+        ></meta>
+      </Helmet>
       <img
         src="/assets/images/404.svg"
         alt="page not found"

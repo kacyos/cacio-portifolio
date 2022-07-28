@@ -10,6 +10,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import useAnimatedLetters from "./../../hooks/useAnimatedLetters";
 import AnimatedLetters from "../../components/AnimatedLetters";
+import { Helmet } from "react-helmet";
 import "./styles.scss";
 
 const About = () => {
@@ -21,6 +22,16 @@ const About = () => {
       animate={{ animation: "zoomInDown 1s linear both" }}
       exit={{ display: "none" }}
     >
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Cacio | Sobre</title>
+        <link rel="canonical" href="https://www.caciodev.com/sobre" />
+        <meta name="description" content="Informações sobre Cacio" />
+        <meta
+          name="keywords"
+          content="sobre, sobre mim, Cacio, Cacio de Castro, Front End, Desenvolvimento Full Stack, Análise e Desenvolvimento de Sistemas, programação"
+        ></meta>
+      </Helmet>
       <div className="about__text-zone">
         <h1>
           <AnimatedLetters

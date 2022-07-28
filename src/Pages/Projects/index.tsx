@@ -8,6 +8,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEye } from "@fortawesome/free-solid-svg-icons";
 import Tilt from "react-parallax-tilt";
 import "./styles.scss";
+import { Helmet } from "react-helmet";
 
 interface IProjects {
   uid: string | null;
@@ -58,6 +59,16 @@ const Projects = () => {
       exit={{ display: "none" }}
       className="projects"
     >
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Cacio | Projetos</title>
+        <link rel="canonical" href="https://www.caciodev.com/projetos" />
+        <meta name="description" content="Projetos" />
+        <meta
+          name="keywords"
+          content="projetos, site, portfólio, trabalhos, front-end, front end, web, desenvolvedor"
+        ></meta>
+      </Helmet>
       <h1>
         <AnimatedLetters
           className={letterClass}

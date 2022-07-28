@@ -9,6 +9,7 @@ import AnimatedLetters from "../../components/AnimatedLetters";
 import Loader from "../../components/Loader";
 import "react-toastify/dist/ReactToastify.css";
 import "./styles.scss";
+import { Helmet } from "react-helmet";
 
 interface IContact {
   name?: string;
@@ -96,6 +97,16 @@ const Contact = () => {
         exit={{ display: "none" }}
         className="contact"
       >
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Cacio | Contato</title>
+          <link rel="canonical" href="https://www.caciodev.com/contato" />
+          <meta name="description" content="Contato" />
+          <meta
+            name="keywords"
+            content="contato, cacio, cacio de castro"
+          ></meta>
+        </Helmet>
         <div className="contact__container">
           <div className="container__title">
             <h1>

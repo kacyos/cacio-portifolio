@@ -11,6 +11,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import AnimatedLetters from "./../../components/AnimatedLetters/index";
 import useAnimatedLetters from "./../../hooks/useAnimatedLetters";
 import "./styles.scss";
+import { Helmet } from "react-helmet";
 
 const Skills = () => {
   const className = useAnimatedLetters();
@@ -21,6 +22,16 @@ const Skills = () => {
       exit={{ display: "none" }}
       className="skills"
     >
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Cacio | Skills</title>
+        <link rel="canonical" href="https://www.caciodev.com/skills" />
+        <meta name="description" content="Habilidades" />
+        <meta
+          name="keywords"
+          content="habilidades, skills, HTML, CSS, JavaScript, React, Desenvolvedor React, Desenvolvedor Front End, Next.JS, Styled Components, Node.JS, Type Script, SASS"
+        ></meta>
+      </Helmet>
       <div className="skills__content">
         <h1>
           <AnimatedLetters
