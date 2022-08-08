@@ -51,7 +51,7 @@
 @media screen and (min-width: 768px) {
   .skills {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 60% 1fr;
 
     &__content {
       width: 100%;
@@ -162,7 +162,6 @@
 
 @media screen and (min-width: 1024px) {
   .skills {
-    grid-template-columns: 60% 1fr;
 
     &__content {
       > h1 {

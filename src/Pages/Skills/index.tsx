@@ -51,7 +51,7 @@ const Skills = () => {
             Perfil para mais detalhes.
           </a>
           &nbsp;Além disso, você pode verificar meu&nbsp;
-          <a href="/assets/CV_Cacio-de-Castro.pdf" download>
+          <a href="/assets/cacio_de_castro_curriculo.pdf" download>
             currículo
           </a>
           .
